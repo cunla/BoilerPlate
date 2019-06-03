@@ -1,0 +1,7 @@
+{
+  "name": "Boilerplate code",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

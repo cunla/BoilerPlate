@@ -1,0 +1,23 @@
+<ion-app>
+    <ion-menu swipeGesture="false">
+        <ion-content>
+            <ion-list>
+                <ion-menu-toggle auto-hide="true">
+
+                    <ion-item [routerDirection]="'root'"
+                              routerLink="/login">
+                        Login
+                    </ion-item>
+                    <ion-item [routerDirection]="'root'"
+                              routerLink="/about">
+                        <ion-label>
+                            About
+                        </ion-label>
+                    </ion-item>
+                </ion-menu-toggle>
+
+            </ion-list>
+        </ion-content>
+    </ion-menu>
+    <ion-router-outlet main></ion-router-outlet>
+</ion-app>
