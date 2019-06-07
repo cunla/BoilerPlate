@@ -11,7 +11,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {HttpClientModule} from '@angular/common/http';
 import {ServiceWorkerModule} from '@angular/service-worker';
 import {environment} from '../environments/environment';
-import {AnalyticsProvider} from './services/analytics.service';
 import {AngularFireModule} from '@angular/fire';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import {AngularFireAuthModule} from '@angular/fire/auth';
@@ -34,7 +33,6 @@ import {Facebook} from '@ionic-native/facebook/ngx';
     providers: [
         StatusBar,
         SplashScreen,
-        AnalyticsProvider,
         Facebook,
         {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}
     ],

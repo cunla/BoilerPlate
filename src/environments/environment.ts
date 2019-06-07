@@ -13,5 +13,3 @@ export const environment = {
         messagingSenderId: ''
     },
 };
-export const GOOGLE_ANALYTICS_ID = '';
-export const APPLICATION_NAME = '';
