@@ -47,6 +47,10 @@ export class AuthService {
         this.afAuth.auth.signInWithPopup(authProvider).then();
     }
 
+    async resetPassword(email: string) {
+        return this.afAuth.auth.sendPasswordResetEmail(email);
+    }
+
     async logout() {
         await this.afAuth.auth.signOut();
         localStorage.removeItem('user');
