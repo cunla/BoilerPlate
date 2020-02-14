@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Boilerplate login</name>
-    <description>Boilerplate login with Ionic 4 and Firebase</description>
+    <description>Boilerplate login with Ionic 5 and Firebase</description>
     <author email="" href="http://ionicframework.com/">Daniel Moran</author>
     <content src="index.html" />
     <access origin="*" />

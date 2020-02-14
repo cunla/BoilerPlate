@@ -3,7 +3,7 @@ Boilerplate app
 
 # Create environment
 * Make sure you have nodejs and npm installed, check that using node version 10 or above `node -v`
-* Install ionic 4 if you haven't already, run `npm -g i ionic` (this might require `sudo`)
+* Install ionic 5 if you haven't already, run `npm -g i ionic` (this might require `sudo`)
 * Check that you have the latest ionic client installed, run `ionic -v`, the version when writing this is higher than 4.6.0
 * Run `npm install` to download all dependencies
 * Run `ionic serve`

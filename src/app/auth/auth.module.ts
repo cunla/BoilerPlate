@@ -7,6 +7,9 @@ import {IonicModule} from '@ionic/angular';
 import {SignupPage} from './signup/signup.page';
 import {LoginPage} from './login/login.page';
 import {ResetPasswordPage} from './reset-password/reset-password.page';
+import {AngularFireModule} from "@angular/fire";
+import {environment} from "../../environments/environment";
+import {AngularFireAuthModule} from "@angular/fire/auth";
 
 
 const routes: Routes = [
@@ -21,7 +24,9 @@ const routes: Routes = [
         CommonModule,
         FormsModule,
         IonicModule,
-        RouterModule.forChild(routes)
+        RouterModule.forChild(routes),
+        AngularFireModule.initializeApp(environment.firebase),
+        AngularFireAuthModule,
     ],
     declarations: [
         SignupPage,
